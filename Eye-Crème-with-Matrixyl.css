@@ -260,7 +260,6 @@
 
 .u-section-2 .u-repeater-1 {
   grid-gap: 0px 0px;
-  grid-auto-columns: 25%;
   grid-template-columns: 25% 25% 25% 25%;
   min-height: 169px;
 }
@@ -440,7 +439,6 @@
 
   .u-section-2 .u-repeater-1 {
     min-height: 138px;
-    grid-template-columns: repeat(4, 25%);
   }
 
   .u-section-2 .u-repeater-2 {
@@ -466,9 +464,8 @@
 
 @media (max-width: 991px) {
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: 50%;
     min-height: 414px;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: 50% 50%;
   }
 
   .u-section-2 .u-repeater-2 {
@@ -484,7 +481,6 @@
   }
 
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: 100%;
     grid-template-columns: 100%;
   }
 
